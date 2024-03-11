@@ -187,6 +187,7 @@ form h2 span {
 }
 .packages .card img {
 	border-radius: 5px;
+	height: 292px;
 }
 .packages .card .card-body {
 	background: transparent;
@@ -199,6 +200,14 @@ form h2 span {
 	font-size: 15px;
 	display: flex;
 	flex-direction: column;
+}
+.bath {
+	display: flex;
+	flex-direction: column;
+}
+.bath span,
+.bath b {
+	margin-bottom: 15px;
 }
 
 /* services */
@@ -276,25 +285,29 @@ form h2 span {
 }
 .rent-car-item img {
 	width: 100%;
-	height: 200px;
+	max-width: 210px;
+	height: 130px;
 	object-fit: cover;
 }
-.rent-car-item p,
-.rent-car-item span {
+.money span {
+	font-size: 36px;
+	color: #428bca;
+}
+.rent-car-item p {
 	color: #6c757d;
 	font-size: 15px;
 	font-weight: 600;
-}
-.money {
-	font-size: 36px;
-	color: #428bca;
 }
 
 /* tour-item */
 .tour-item {
 	margin-top: 90px;
 }
+.tour-item-img {
+	max-width: 750px;
+}
 .tour-item-img img {
+	width: 100%;
 	border-radius: 10px;
 	margin-bottom: 35px;
 }
