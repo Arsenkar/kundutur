@@ -69,7 +69,7 @@
 								</a>
 							</li>
 						</ul>
-						<li class="nav-item dropdown">
+						<!-- <li class="nav-item dropdown">
 							<a
 								class="nav-link dropdown-toggle"
 								href="#"
@@ -83,7 +83,7 @@
 								<li><a class="dropdown-item" href="#">Deutsch</a></li>
 								<li><a class="dropdown-item" href="#">Arabic</a></li>
 							</ul>
-						</li>
+						</li> -->
 					</div>
 				</div>
 			</nav>
@@ -198,7 +198,20 @@
 			crossorigin="anonymous"
 		></script>
 
-		<script src="./js/script.js"></script>
+		<script type="text/javascript">
+			function googleTranslateElementInit() {
+				new google.translate.TranslateElement(
+					{ pageLanguage: 'en' },
+					'google_translate_element'
+				)
+			}
+		</script>
+
+		<script
+			type="text/javascript"
+			src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+		></script>
+
 		<script src="./js/script.js"></script>
 	</body>
 </html>

@@ -64,7 +64,7 @@
 								</a>
 							</li>
 						</ul>
-						<li class="nav-item dropdown">
+						<!-- <li class="nav-item dropdown">
 							<a
 								class="nav-link dropdown-toggle"
 								href="#"
@@ -78,7 +78,7 @@
 								<li><a class="dropdown-item" href="#">Deutsch</a></li>
 								<li><a class="dropdown-item" href="#">Arabic</a></li>
 							</ul>
-						</li>
+						</li> -->
 					</div>
 				</div>
 			</nav>
@@ -87,8 +87,105 @@
 		<section class="tour-item">
 			<div class="container">
 				<div class="tour-item-content">
-					<div class="tour-item-img">
-						<img src="../img/tour-5.jpeg" alt="tour-1" />
+					<div id="demo" class="carousel slide" data-bs-ride="carousel">
+						<!-- Indicators/dots -->
+						<div class="carousel-indicators">
+							<button
+								type="button"
+								data-bs-target="#demo"
+								data-bs-slide-to="0"
+								class="active"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#demo"
+								data-bs-slide-to="1"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#demo"
+								data-bs-slide-to="2"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#demo"
+								data-bs-slide-to="3"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#demo"
+								data-bs-slide-to="4"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#demo"
+								data-bs-slide-to="5"
+							></button>
+						</div>
+
+						<!-- The slideshow/carousel -->
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="../img/safari-tour/safari-1.jpg"
+									alt="Los Angeles"
+									class="d-block w-100"
+								/>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="../img/safari-tour/safari-2.jpg"
+									alt="Chicago"
+									class="d-block w-100"
+								/>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="../img/safari-tour/safari-3.jpg"
+									alt="New York"
+									class="d-block w-100"
+								/>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="../img/safari-tour/safari-4.jpg"
+									alt="New York"
+									class="d-block w-100"
+								/>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="../img/safari-tour/safari5.jpg"
+									alt="New York"
+									class="d-block w-100"
+								/>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="../img/safari-tour/safari-6.jpg"
+									alt="New York"
+									class="d-block w-100"
+								/>
+							</div>
+						</div>
+
+						<!-- Left and right controls/icons -->
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#demo"
+							data-bs-slide="prev"
+						>
+							<span class="carousel-control-prev-icon"></span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#demo"
+							data-bs-slide="next"
+						>
+							<span class="carousel-control-next-icon"></span>
+						</button>
 					</div>
 					<div class="tour-item-info">
 						<h4>JEEP SAFARI</h4>
@@ -174,6 +271,19 @@
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 			crossorigin="anonymous"
+		></script>
+		<script type="text/javascript">
+			function googleTranslateElementInit() {
+				new google.translate.TranslateElement(
+					{ pageLanguage: 'en' },
+					'google_translate_element'
+				)
+			}
+		</script>
+
+		<script
+			type="text/javascript"
+			src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
 		></script>
 		<script src="./js/script.js"></script>
 	</body>

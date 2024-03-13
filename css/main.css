@@ -126,6 +126,12 @@ a {
 	background-position: center;
 }
 
+/* carousel */
+.carousel {
+	max-width: 750px;
+	margin-bottom: 35px;
+}
+
 /* book */
 .book {
 	background: #3ea8ff;
